@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HimeHike</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="app">
+    <header>
+        <h1>Hime Hike</h1>
+    </header>
+
+    <main>
+        <section id="mountain-selector" class="section">
+            <h2>山を選択</h2>
+            <select id="mountain-select">
+                <option value="">山を選んでください</option>
+            </select>
+            <div id="mountain-info"></div>
+        </section>
+
+        <section id="equipment-checker" class="section">
+            <h2>装備チェックリスト</h2>
+            <div id="essential-items">
+                <h3>必須装備</h3>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>バックパック</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>登山靴</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>レインウェア</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>水（2L以上）</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>携帯食</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>救急セット</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>ヘッドライト</label>
+                </div>
+            </div>
+            <div id="optional-items">
+                <h3>任意装備</h3>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>トレッキングポール</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>日焼け止め</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>サングラス</label>
+                </div>
+                <div class="equipment-item">
+                    <input type="checkbox">
+                    <label>タオル</label>
+                </div>
+            </div>
+            <div id="cloths">
+                <h3>服装</h3>
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+
+<script type="module" src="scripts/main.js"></script>
+
+</html>
